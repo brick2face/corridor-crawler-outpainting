@@ -24,3 +24,9 @@ Clone this repo into the automatic1111 "extensions" folder. (TODO: Add this repo
 4. Select "Corridor Crawler Outpainting" from the Scripts dropdown menu, then configure your chosen prefab image and other settings.
 
 (TODO: Add tutorial images and recommended settings)
+
+## Credits
+
+Created by brick2face
+
+Special thanks to dungeoncrawlers.org for their "Atlas Generator" which was used to generate the first prefab image (simple-brick-textures.png). It can be used to make additional prefab images: https://dungeoncrawlers.org/tools/atlas_generator/
