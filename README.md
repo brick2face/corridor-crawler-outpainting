@@ -17,7 +17,9 @@ CFG Scale = 10
 Denoising strength = 1
 
 ## How to install
-Clone this repo into the automatic1111 "extensions" folder. (TODO: Add this repo to the list of extensions that can be installed within the stable-diffusion-webui GUI)
+Option #1: Run automatic1111, install "Corridor Crawler Outpainting" from the Extensions tab, then reset UI.
+
+Option #2: Clone this repo into the automatic1111 "extensions" folder.
 
 ## How to use
 1. Run [automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) and make sure your selected model is [512-depth-ema.ckpt](https://huggingface.co/stabilityai/stable-diffusion-2-depth/blob/main/512-depth-ema.ckpt)
