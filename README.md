@@ -1,7 +1,9 @@
 # Corridor Crawler Outpainting
 An [automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) extension for generating hallways with Stable Diffusion. It was designed to use [depth-to-image model](https://huggingface.co/stabilityai/stable-diffusion-2-depth/blob/main/512-depth-ema.ckpt) at 512 resolution, but it could be tweaked to work with other models.
 
-## Example
+## Examples
+![example animation](docs/animation.gif)
+
 ![example image](docs/example.png)
 
 Positive Prompt: (Art museum hallway), masterpiece art, wall paintings, colorful, award-winning photography, beautiful lighting, detailed
