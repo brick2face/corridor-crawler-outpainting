@@ -2,7 +2,7 @@
 An [automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) extension for generating and animating hallways with Stable Diffusion. It was designed to use [depth-to-image model](https://huggingface.co/stabilityai/stable-diffusion-2-depth/blob/main/512-depth-ema.ckpt) at 512 resolution, but it could be tweaked to work with other models.
 
 ## Examples
-![example animation](docs/smooth-animation.gif)
+![example smooth animation](docs/smooth-animation.gif)
 
 Prefab Image: fantasy-dungeon-red-carpet.png
 
@@ -17,6 +17,8 @@ CFG Scale = 10
 Denoising strength = 1
 
 ![example image](docs/example.png)
+
+![example animation](docs/animation.gif)
 
 Prefab Image: art-museum.png
 
