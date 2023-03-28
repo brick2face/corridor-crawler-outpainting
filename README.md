@@ -1,10 +1,24 @@
 # Corridor Crawler Outpainting
-An [automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) extension for generating hallways with Stable Diffusion. It was designed to use [depth-to-image model](https://huggingface.co/stabilityai/stable-diffusion-2-depth/blob/main/512-depth-ema.ckpt) at 512 resolution, but it could be tweaked to work with other models.
+An [automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) extension for generating and animating hallways with Stable Diffusion. It was designed to use [depth-to-image model](https://huggingface.co/stabilityai/stable-diffusion-2-depth/blob/main/512-depth-ema.ckpt) at 512 resolution, but it could be tweaked to work with other models.
 
 ## Examples
-![example animation](docs/animation.gif)
+![example animation](docs/smooth-animation.gif)
+
+Prefab Image: fantasy-dungeon-red-carpet.png
+
+Positive Prompt: ((Fantasy dungeon hallway)), intricate, (engraved smoothed stone walls), brightly-lit, [vivid colors], glowing lights, trending on ArtStation, (fancy carpet), insanely detailed, masterpiece, cinematic lighting
+
+Negative Prompt: ((Dark)), (red), black, (shadow), grey, blurry, watermark, signature
+
+Sampling Steps = 30
+
+CFG Scale = 10
+
+Denoising strength = 1
 
 ![example image](docs/example.png)
+
+Prefab Image: art-museum.png
 
 Positive Prompt: (Art museum hallway), masterpiece art, wall paintings, colorful, award-winning photography, beautiful lighting, detailed
 
